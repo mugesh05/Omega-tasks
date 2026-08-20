@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: azure;
+}
+
+.nav{
+    position: sticky;
+    z-index: 999;
+    display: flex;
+    background-color: blue;
+    padding: 1rem;
+    justify-content: space-between;
+    color: white;
+}
+.nav ul{
+    display: flex;
+}
+li{
+    margin: 1rem;
+    cursor: pointer;
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.hero{
+    justify-content: space-around;
+    display: flex;
+    margin: 3rem;
+    margin-top: 5rem;
+}
+
+.about{
+    justify-content: space-around;
+    display: flex;
+    margin: 3rem;
+    margin-top: 10rem;
+}
+
+.about h2{
+    text-align: start;
+    font-size: 40px;
+    
+}
+.about h3{
+    font-size: 25px;
+    color: brown;
+}
+
+
+.he-im{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.he-content{
+   align-self: center;
+}
+
+.he-content h1{
+    padding-bottom: 1rem;
+    color: brown;
+}
+
+.he-content h3{
+    padding-bottom: 1rem;
+    color: blue;
+}
+
+.he-content p{
+    font-size: 18px;
+    padding-bottom: 1rem;
+    color: rgb(51, 174, 174);
+    width: 500px;
+}
+
+.footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    padding: 3rem 3rem 1rem 3rem ;
+    justify-content: space-between;
+}
+
+.flo{
+    display: flex;
+}
+
+.flo li{
+    font-size: 20px;
+}
+
+.he p{
+    
+    padding-top: 1rem;
+    width: 300px;
+}
+
+.bo{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.na{
+    color: rgb(255, 132, 0);
+    background-color: black;
+    text-align: center;
+}
+
+.his{
+    justify-self: center;
+    font-size: 20px;
+    line-height: 2rem;
+    width: 700px;
+    text-align: justify;
+}
+
+.his h1,h2{
+    text-align: center;
+    margin: 1rem;
+}
+
+
+
+.courses{
+    justify-content: space-around;
+    display: flex;
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+
+.he-ima{
+    width: 600px;
+    border-radius: 10px;
+}
+
+.he-contents{
+   align-self: center;
+}
+
+.he-contents h1{
+    padding-bottom: 1rem;
+    color: brown;
+}
+
+.he-contents h3{
+    padding-bottom: 1rem;
+    color: blue;
+}
+
+.he-contents p{
+    
+    font-size: 18px;
+    padding-bottom: 1rem;
+    color: rgb(51, 174, 174);
+    width: 500px;
+}
+
+.he-contents ul{
+    width: 400px;
+    line-height: .3rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.he-contents li{
+    list-style: circle;
+}
+
+.he-contents .aa{
+    color: black;
+}
+
+.courses
